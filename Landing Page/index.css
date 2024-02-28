@@ -1,0 +1,495 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+/*main-banner beginning  */
+.main-intro-banner {
+  display: none;
+  display: block;
+  height: 90vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/spacejoy-YI2YkyaREHk-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#banner-text {
+  text-align: center;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  color: #ffffff;
+}
+.nav-bar {
+  display: flex;
+  padding: 20px 90px;
+  justify-content: space-between;
+}
+.nav-bar #logo {
+  color: #fff;
+  font-family: "Playfair Display";
+}
+.nav-links {
+  margin: 0 0 0 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo-primary-links {
+  display: flex;
+}
+.nav-links li {
+  list-style-type: none;
+  margin: 0 25px;
+}
+.nav-links li a {
+  text-decoration: none;
+  color: #fff;
+}
+.nav-bar button {
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 7px 20px;
+  cursor: pointer;
+}
+/* main-banner ending  */
+
+/*about beginning  */
+.about {
+  font-weight: lighter;
+  padding: 50px 70px;
+  display: flex;
+  justify-content: space-between;
+}
+#aboutus-header{
+  padding: 20px 70px;
+}
+.header {
+  font-weight: 400;
+}
+.major-header{
+  font-size: 30px;
+}
+.about-content {
+  font-weight: lighter;
+  width: 670px;
+}
+.about-content h2 {
+  padding: 10px 15px 30px 15px;
+}
+.main-about-content {
+  display: flex;
+  justify-content: space-between;
+}
+.main-about-content h4 {
+  font-weight: 300;
+}
+.main-about-content .content1 {
+  width: 320px;
+  padding: 10px;
+}
+.main-about-content .content2 {
+  width: 320px;
+  padding: 10px;
+}
+/*about ending */
+
+/* apartment beginning */
+.main-apartment{
+  background-color: rgba(23, 24, 23, 0.966);
+  color: #fff;
+  width: 100%;
+  padding: 50px 70px;
+  text-align: center;
+}
+.apartment{
+  padding: 50px 0 ;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.apartment h4{
+  font-weight: 300;
+  width: 60%;
+  text-align: left;
+}
+#apartment{
+  border-collapse: collapse;
+  width: 100%;
+}
+#apartment td, #apartment th {
+  border: 1px solid #ddd;
+  border-left: none;
+  border-right: none;
+  padding: 10px 0px;
+  font-size: 18px;
+}
+#apartment th{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  text-align: center;
+  width: 50px;
+}
+/* apartment ending  */
+
+/* second-gallery beginning */
+.second-gallery {
+  background-color: rgba(23, 24, 23, 0.966);
+  color: #fff; 
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 50px 70px;
+}
+.big-image {
+  width: 60%;
+  margin-right: 50px;
+}
+.big-image img {
+  width: 100%;
+  height: 60vh;
+}
+.gallery-text {
+  padding: 0 20px;
+  width: 40%;
+}
+.gallery-text h4 {
+  font-weight: 300;
+}
+.gallery-text h5 {
+  font-weight: 300;
+}
+/* second-gallery ending*/
+
+/* gallery beginning */
+.gallery {
+  background-color: rgba(23, 24, 23, 0.966);
+  color: #fff;
+  padding: 50px 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.gallery-text h2 {
+  font-weight: 400;
+}
+.gallery-images {
+  display: flex;
+  justify-content: space-between;
+}
+.image {
+  margin: 0 15px;
+}
+.image img {
+  height: 280px;
+  width: 180px;
+}
+.image h3 {
+  font-weight: 200;
+}
+/* gallery ending */
+
+/*about beginning  */
+.aboutus {
+  width: 100%;
+  font-weight: lighter;
+  padding: 50px 70px;
+  display: flex;
+  justify-content: space-between;
+}
+#aboutus-header{
+  padding: 20px 70px;
+}
+.header {
+  font-weight: 400;
+}
+.major-header{
+  font-size: 30px;
+}
+.aboutus-content {
+  font-weight: lighter;
+  width:70%;
+}
+.aboutus-content h2 {
+  padding: 10px 15px 30px 15px;
+}
+.main-aboutus-content {
+  display: flex;
+  justify-content: space-between;
+}
+.main-aboutus-content h4 {
+  font-weight: 300;
+}
+.main-aboutus-content .content1 {
+  padding: 10px;
+}
+/*about ending */
+
+
+/* partner beginning */
+.partners {
+  display: flex;
+  width: 100%;
+  padding: 50px 70px;
+}
+.partner-text {
+  width: 40%;
+}
+.partner-text h4 {
+  font-weight: 300;
+}
+.main-patner{
+  width: 50%;
+}
+.main-patner:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.main-banner {
+  width: 40%;
+}
+.partner img {
+  height: 15vh;
+  width: 300px;
+  object-fit: contain;
+}
+.partner {
+  padding: 10px;
+  float: left;
+  width: 20%;
+  margin-left: 0.5%;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+/* partner ending */
+
+/* team  beginning */
+.team {
+  font-weight: lighter;
+  padding: 50px 70px;
+  display: flex;
+  justify-content: space-between;
+}
+#aboutus-header{
+  padding: 20px 70px;
+}
+.header {
+  font-weight: 400;
+}
+.major-header{
+  font-size: 30px;
+}
+.team-content {
+  font-weight: lighter;
+  width:70%;
+}
+.team-content h2 {
+  padding: 10px 15px 30px 15px;
+}
+.main-team-content {
+  display: flex;
+  justify-content: space-between;
+}
+.main-team-content h4 {
+  font-weight: 300;
+}
+.main-team-content .content1 {
+  padding: 10px 0  0 0;
+}
+.main-members{
+  padding: 0 50px;
+}
+.main-members:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.member {
+  padding: 10px;
+  float: left;
+  width: 29%;
+  margin-left: 3.4%;
+  margin-bottom: 15px;
+}
+.member h5{
+  font-weight: 300;
+}
+.member img {
+  height: 60vh;
+  width: 100%;
+}
+
+/* team  ending */
+
+/* location beginning */
+.location {
+  padding: 50px 70px;
+  width: 100%;
+}
+.location-text {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 70px;
+}
+.main-map {
+  width: 100%;
+}
+.main-map iframe {
+  width: 100%;
+  height: 80vh;
+}
+.main-location-text {
+  width:60%;
+  padding: 0 10px;
+}
+.text_location {
+  display: flex;
+  justify-content: space-between;
+}
+.location-text1,
+.location-text2 {
+  width: 250px;
+}
+.text_location h4 {
+  font-weight: 300;
+}
+/* location ending */
+
+
+/* blog beginning */
+.main-blog{
+  background-color: rgba(23, 24, 23, 0.966);
+  color: #fff;
+  padding: 70px 50px;
+}
+#blog-header{
+  padding: 20px 70px;
+}
+.main-blog-posts:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.post {
+  padding: 10px;
+  float: left;
+  width: 30%;
+  margin-left:2.5%;
+  margin-bottom: 15px;
+}
+.post h6{
+  font-weight: 200;
+}
+.post img {
+  height: 30vh;
+  width: 100%;
+}
+/* blog ending */
+
+/* contact beginning */
+.contact {
+  font-weight: lighter;
+  padding: 50px 70px;
+  display: flex;
+  justify-content: space-between;
+}
+#aboutus-header{
+  padding: 20px 70px;
+}
+.header {
+  font-weight: 400;
+}
+.major-header{
+  font-size: 30px;
+}
+.contact-content {
+  font-weight: lighter;
+  width:70%;
+}
+.contact-content h2 {
+  padding: 10px 15px 30px 15px;
+}
+.main-contact-content {
+  display: flex;
+  justify-content: space-between;
+}
+.main-contact-content h4 {
+  font-weight: 300;
+}
+.main-contact-content .content1 {
+  padding: 10px 0  0 0;
+}
+.main_input input{
+  border: none;
+  padding: 10px 5px;
+  outline: none;
+  border-bottom: 2px solid #000;
+  margin: 30px 15px;
+}
+.terms{
+  display: flex;
+  padding: 20px 0 ;
+}
+.terms h5{
+  padding-left: 10px;
+}
+#submit-btn{
+  cursor: pointer;
+  background-color: transparent;
+  padding:10px 20px  ;
+  color: #000;
+  border: 1px solid #000;
+}
+/* contact ending */
+
+/* footer beginning */
+.footer {
+  background-color: rgb(23, 24, 23);
+  padding: 50px 70px;
+}
+.main-footer{
+  display: flex;
+  justify-content: space-between;
+}
+.footer #logo {
+  font-family: "Playfair Display";
+  color: #fff;
+}
+.links:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.link {
+  padding: 10px;
+  float: left;
+  width: 25%;
+  margin-left: 5%;
+  margin-bottom: 5px;
+}
+li {
+  list-style: none;
+}
+li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: capitalize;
+}
+select {
+  background-color: rgba(23, 24, 23, 0.966);
+  color: #fff;
+  height: 30px;
+  width: 70px;
+}
+.footer h4{
+  padding-top: 5px;
+  color: #fff;
+  text-align: center;
+  font-weight: 200;
+}
+/* footer ending  */
+
+
